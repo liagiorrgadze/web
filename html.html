@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>forms</title>
+        <style>
+            form{
+                margin: auto;
+                background:lightgray;
+                text-align: left;
+                width: 650px;
+                height: 800px;
+            }
+            input[type="text"]{
+                width: 500px;
+                height: 40px;
+                font-size:20px ;
+                border: 1px solid;
+            }
+     input[type=email]{
+        width: 500px;
+                height: 40px;
+                font-size:20px ;
+                border: 1px solid;
+     }
+     input[type=password]{
+        width: 400px;
+                height: 40px;
+                font-size:20px ;
+                border: 1px solid;
+     }
+     input[type=date]{
+        width: 200px;
+                height: 30px;
+                font-size:20px ;
+                border: 1px solid;
+     }
+    
+        </style>
+    </head>
+    <body>
+        <form>
+            <br>
+            <div>
+                <label for="firstname">firstname:</label>
+                <input name="firstname" id="firstname" value=""placeholder="enter your first name" size="40" type="text" >
+            </div>
+            <br>
+            <div>
+                <label for="lastname">lastname:</label>
+                <input name="lastname"id=lastname placeholder="enter your last name" size="40" type="text">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:</label>
+                <input name="email" id="email"placeholder="it should contain @..." size="40" type="email">
+            </div>
+            <br>
+            <div>
+                <label for="mobile">Mobile:</label>
+                <input id="mobile" type="text"placeholder="only 10 digits are allowed" maxlength="10"size="40" >
+            </div>
+            <br>
+            <div>
+                <label for="gender"> Gender:</label>
+                <input type="radio" name="gender" id="famele" > 
+                <label for="famele">Famele</label>
+                <input type="radio" name="gender" id="male" >
+                <label for="male">Male</label>
+                </div>
+                <br>
+                <div>
+                    <label for="date">Date of birth:</label>
+                    <input name="birthdate" type="date" id="date"size="40">
+                </div>
+                <br>
+                <div>
+                    <label for="adress">Address:</label>
+<input id="adress" type="text" size="40"  type="text" >
+</div>
+<br>
+<div>
+    <label for="area pin">Area PIN:</label>
+    <input id="area pin" type="text" size="40">
+</div>
+<br>
+<div>
+    <label for="state">State :</label>
+    <input id="state" type="text" size="40">
+</div>
+<br>
+<div>
+  
+        <label for="qualification"> Select qualification:</label>
+<select name="qualification" id="qualification">
+<optgroup label="qualification">
+    <option value="1">html</option>
+    <option value="2">css</option>
+    <option value="3">jv</option>
+</optgroup>
+</select>  
+</div>
+<br>
+<div>
+    <label>Specialization:</label></div>
+    <div>
+    <input type="checkbox" name=" computer science" id="computer science" value="1">
+    <label for="computer science">Computer science</label> </div>
+    <div>
+    <input type="checkbox" name="information technology"id="information technology" value="2">
+    <label for="information technology">Information technology</label></div>
+    <div>
+    <input type="checkbox" name="computer architecture" id="computer architecture" value="3">
+    <label for="computer architecture">Computer architecture</label></div>
+    <div>
+    <input type="checkbox" name="comunication" id="comunication">
+    <label for="comunication"> Tele comunication</label>
+</div>
+<br>
+<div>
+    <label for="pasword">pasword:</label>
+    <input type="password" name="password" id="pasword"size="40"  ></div>
+<br>
+<input type="submit" value="Register">
+
+                     
+
+        </form>            
+    </body>
+</html>
